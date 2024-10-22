@@ -1,0 +1,27 @@
+/* import React, { useState } from 'react';
+
+function CreditCardForm() {
+  const [cardNumber, setCardNumber] = useState('');
+  const [expiryDate, setExpiryDate] = useState('');
+  const [cvv, setCvv] = useState('');
+
+  const handleCardNumberChange = (event) => {
+
+    setCardNumber(event.target.value);
+  };
+
+
+
+  return (
+    <form>
+      <input 
+        type="text" 
+        placeholder="Card Number" 
+        value={cardNumber} 
+        onChange={handleCardNumberChange} 
+      />
+      
+      <button type="submit">Submit</button>
+    </form>
+  );
+} */

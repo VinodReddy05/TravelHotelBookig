@@ -1,0 +1,187 @@
+
+.authentication {
+    background: url('https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;    
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+  }
+  
+  .authentication::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3; 
+    z-index: -1; 
+  }
+  
+  .register {
+    background: rgba(255, 255, 255, 0.15); 
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+    background-clip: padding-box;
+    color: #ffffff;  
+  }
+  
+  .register h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; 
+        font-weight: 700;
+    font-size: 35px;
+    border-radius: 50px;
+    
+  }
+  
+  .register label {
+    color: black;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .register input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.2);  
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .register input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+  }
+  
+  .register input:focus {
+    outline: none;
+    border-color: #00bcd4; 
+  }
+  
+  .registerbtn {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0, 188, 212, 0.5); 
+    border: 1px solid rgba(0, 188, 212, 0.6);  
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .registerbtn:hover {
+    background-color: rgba(0, 188, 212, 0.7);  
+    box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4);  
+  }
+  
+  .error-message {
+    color: #ff5252;  
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .register p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 15px;
+  }
+  
+  .register p a {
+    color:rgb(65, 63, 63);  
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .register p a:hover {
+    color:white;  
+    text-decoration: underline;
+  }
+
+
+
+
+  /* userprofile css */
+
+  .user-profile {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color:lightcoral;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+  
+  .user-icon {
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 25px;
+    color:black;
+
+  }
+  
+  .user-email {
+    font-weight: bold;
+    color:black;
+  }
+
+  .profile-container:hover{
+    background-color:rgb(230, 141, 141);
+    color: black;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #f0f0f0; /* Change color on hover */
+  }
+  
+
+
+
+  /* loading spinner */
+
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust based on your layout */
+  }

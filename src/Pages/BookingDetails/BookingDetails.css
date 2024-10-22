@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.booking{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #486da5 0%, #c3cfe2 100%);
+}
+.bookingDetails {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .booking-info {
+    margin-bottom: 20px; 
+  }
+  
+  .booking-info h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .booking-info p, .booking-info span {
+    font-size: 16px;
+    color: #6c757d; 
+    display: block; 
+  }
+  
+  .booking-info span {
+    font-weight: bold;
+    margin-top: 8px; 
+  }
+  
+  .booking-cancle {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .booking-cancle h2 {
+    font-size: 22px;
+    color: #007bff; 
+  }
+  
+  .booking-cancle span {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .booking-cancle p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  .booking-cancle input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .bookimg img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+  }
+
+
+
+  .paybtn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .paybtn:hover {
+    background-color: #218838;
+  }
+  
+
+  /* Align the input and text side by side */
+.booking-cancle .checkbox-container {
+    display: flex;
+    align-items: center; /* Vertically center the input and text */
+    margin-top: 10px; /* Space above the section */
+  }
+  
+  .booking-cancle .checkbox-container p {
+    margin: 0; /* Remove extra margin from the paragraph */
+    margin-left: 10px; /* Add some space between the checkbox and the text */
+  }
+  
+  /* Align the FontAwesome icon and span side by side */
+  .booking-cancle .icon-container {
+    display: flex;
+    align-items: center; /* Vertically align the icon and text */
+    margin-top: 10px; /* Space above the section */
+  }
+  
+  .booking-cancle .icon-container span {
+    margin-left: 10px; /* Add space between the icon and the text */
+  }
+  

@@ -1,0 +1,35 @@
+{
+    "deals": [
+      {
+        "image": "beach scene with beach chairs and a sandy path",
+        "location": "unknown",
+        "deal_button": "Deals Discover"
+      },
+      {
+        "image": "seaside cliff town with buildings perched on a hillside",
+        "location": "unknown",
+        "deal_button": "Deals Discover"
+      },
+      {
+        "image": "a vintage van parked by the beach with a bike attached",
+        "location": "unknown",
+        "deal_button": "Deals Discover"
+      },
+      {
+        "image": "a speedboat on a lake with mountains in the background",
+        "location": "unknown",
+        "deal_button": "Deals Discover"
+      },
+      {
+        "image": "the Eiffel Tower lit up at night",
+        "location": "Paris, France",
+        "deal_button": "Deals Discover"
+      },
+      {
+        "image": "camel caravan walking across desert dunes",
+        "location": "unknown",
+        "deal_button": "Deals Discover"
+      }
+    ]
+  }
+  

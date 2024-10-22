@@ -1,0 +1,156 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listwrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch {
+    flex: 1;
+    background-color: #098dea;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.lsTitle {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.lsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.lsItem > label {
+    font-size: 14px;
+}
+
+.lsItem > input {
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lsItem > span {
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px; /* Adjusted padding for better alignment */
+    border-radius: 8px;
+}
+
+.lsOptions {
+    padding: 9px;
+}
+
+.lsOptionItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.lsOptionInput {
+    width: 50px;
+}
+
+.listSearch > button {
+    padding: 10px;
+    background-color: rgb(76, 215, 76);
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.listResult {
+    flex: 3;
+}
+
+.suggestions {
+    border: 1px solid #ddd;
+    background-color: white;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    width: calc(100% - 20px); /* Adjust for padding */
+    z-index: 10;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .listwrapper {
+        flex-direction: column; /* Stack components vertically */
+        gap: 15px; /* Space between components */
+    }
+
+    .listSearch {
+        margin-bottom: 15px; /* Space below the search component */
+        position: static; /* Remove sticky position */
+        width: 100%; /* Ensure full width on mobile */
+    }
+
+    .listResult {
+        width: 100%; /* Ensure full width on mobile */
+    }
+
+    .lsItem > input,
+    .lsItem > span {
+        width: 100%; /* Full width for inputs and spans */
+    }
+
+    .listSearch > button {
+        padding: 10px; /* Maintain consistent padding */
+        border-radius: 20px; /* Keep button rounded */
+    }
+}
+
+/* Additional styling for very small screens (like phones) */
+@media (max-width: 480px) {
+    .lsTitle {
+        font-size: 18px; /* Slightly smaller title */
+    }
+
+    .lsItem > label {
+        font-size: 12px; /* Smaller labels for mobile */
+    }
+
+    .lsOptionItem {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .lsOptionInput {
+        width: 40px; /* Smaller width for inputs */
+    }
+}

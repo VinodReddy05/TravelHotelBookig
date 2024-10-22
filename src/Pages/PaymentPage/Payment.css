@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.payment_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #486da5 0%, #c3cfe2 100%);
+}
+
+.payment {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.payDesc img.payImg {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.payDesc h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.payDesc p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  /* margin: 10px 0; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #5e72e4;
+}
+
+.submitform {
+  width: 100%;
+  padding: 12px;
+  background-color: #5e72e4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitform:hover {
+  background-color: #324cdd;
+}
+
+.isactivebtn {
+  font-size: 18px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form svg {
+  position: relative;
+  left: -30px;
+}
+
+@media (max-width: 768px) {
+  .payment {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+.inputIconRight{
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.inputWithIcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.inputWithIcon input {
+  padding-left: 30px; 
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+
+

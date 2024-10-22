@@ -1,0 +1,82 @@
+.pList {
+    width: 100%;
+    max-width: 1024px; /* Maximum width for larger screens */
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    gap: 10px; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap */
+    padding-bottom: 10px;
+    border-bottom: 2px dashed red;
+}
+
+.pListItem {
+    flex: 1 1 300px; /* Each item takes up to 300px width; adjust as needed */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative; /* Position context for absolute children */
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+}
+
+.pListimg {
+    width: 100%; /* Full width of the item */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: filter 0.3s; /* Smooth filter transition */
+}
+
+.pListItem:hover .pListimg {
+    filter: blur(2px); /* Blur effect on hover */
+}
+
+.pListTitles {
+    position: absolute; /* Overlay on top of the image */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text alignment */
+    backdrop-filter: blur(5px); /* Glass effect */
+    opacity: 1; /* Fully visible */
+    transition: opacity 0.3s; /* Smooth transition for opacity */
+}
+
+.pListItem:hover .pListTitles {
+    opacity:0; 
+}
+
+.pListItem:hover .pListimg {
+    filter: none; /* Clear the blur effect on hover */
+    opacity: 1; /* Ensure the image is fully visible */
+}
+.pListTitles > h2 {
+    font-size: 16px;
+    margin: 5px 0; /* Margin for spacing */
+}
+
+.pListTitles > p {
+    font-size: 14px;
+    font-weight: 300; /* Set font weight */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .pListItem {
+        flex: 1 1 calc(50% - 10px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .pListItem {
+        flex: 1 1 100%; /* One item per row on very small screens */
+    }
+    .pListimg {
+        
+        height: 300px; /* Fixed height for uniformity */
+       
+    }
+}

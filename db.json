@@ -1,0 +1,670 @@
+{
+
+  "properties": [
+    {
+      "property": {
+        "name": "Sydney Apartments",
+        "rating": 9.1,
+        "id": 1,
+        "rating_description": "Superb",
+        "distance_from_center": "1km",
+        "img": [
+          "https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1678297270385-ad5067126607?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1676321046262-4978a752fb15?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://plus.unsplash.com/premium_photo-1668073437337-5734dc7ef812?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1536494126589-29fadf0d7e3c?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://cdn.pixabay.com/photo/2019/05/28/00/15/indoors-4234071_1280.jpg"
+        ],
+        "description_Title": "Stay in Sydney Apartments ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://as1.ftcdn.net/v2/jpg/00/29/13/38/1000_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg",
+        "amenities": [
+          "Free airport shuttle",
+          "Air conditioning",
+          "Free Wi-Fi"
+        ]
+      },
+      "apartment_details": {
+        "type": "Deluxe Studio Apartment with Balcony",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "30m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$180",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Lock in this price today!"
+      }
+    },
+    {
+      "property": {
+        "name": "Gothenburg Loft",
+        "rating": 8.7,
+        "id": 2,
+        "rating_description": "Excellent",
+        "distance_from_center": "600m",
+        "img": [
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.pexels.com/photos/8159777/pexels-photo-8159777.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description_Title": "Stay in Gothenburg Loft ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free breakfast",
+          "Gym access",
+          "Pet-friendly"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Loft",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "40m²",
+          "bed_type": "1 king bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$150",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now to secure this rate!"
+      }
+    },
+    {
+      "property": {
+        "name": "Manhattan Studio",
+        "rating": 8.9,
+        "id": 3,
+        "rating_description": "Excellent",
+        "img":[
+         " https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         "https://images.pexels.com/photos/8159777/pexels-photo-8159777.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+         "https://images.pexels.com/photos/16010609/pexels-photo-16010609/free-photo-of-facade-of-one-of-the-buildings-in-the-fiesta-americana-hotel-in-cuba.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+         "https://images.pexels.com/photos/13283215/pexels-photo-13283215.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+         "https://images.pexels.com/photos/15303762/pexels-photo-15303762/free-photo-of-a-modern-hotel-bedroom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         "https://images.pexels.com/photos/13757468/pexels-photo-13757468.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "distance_from_center": "700m",
+        "description_Title": "Stay in Manhattan Studio  ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Rooftop access",
+          "24-hour security"
+        ]
+      },
+      "apartment_details": {
+        "type": "Studio Apartment with City View",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "28m²",
+          "bed_type": "1 full bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$220",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Limited-time offer!"
+      }
+    },
+    {
+      "property": {
+        "name": "Tokyo Residence",
+        "rating": 9.3,
+        "id": 4,
+        "rating_description": "Superb",
+        "img":[
+          "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/10060915/pexels-photo-10060915.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/28461045/pexels-photo-28461045/free-photo-of-modern-office-space-with-indoor-plants.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/342800/pexels-photo-342800.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "distance_from_center": "500m",
+        "description_Title": "Stay in Tokyo Residence",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/19228025/pexels-photo-19228025/free-photo-of-tables-at-elegant-restaurant.jpeg",
+        "amenities": [
+          "Air conditioning",
+          "Smart TV",
+          "Free breakfast"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Apartment with Balcony",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "35m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$200",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Early bird discount!"
+      }
+    },
+    {
+      "property": {
+        "name": "London Bridge Apartments",
+        "rating": 8.8,
+        "id": 5,
+        "rating_description": "Excellent",
+        "distance_from_center": "800m",
+        "img":[
+          "https://images.pexels.com/photos/28683056/pexels-photo-28683056/free-photo-of-modern-bathroom-interior-with-tiled-walls.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "description_Title": "Stay in London Bridge Apartments",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/16985199/pexels-photo-16985199/free-photo-of-restaurant-hall-prepared-for-the-banquet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Fitness center",
+          "Parking available"
+        ]
+      },
+      "apartment_details": {
+        "type": "Studio Apartment",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "25m²",
+          "bed_type": "1 double bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$190",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now and save!"
+      }
+    },
+    {
+      "property": {
+        "name": "Sydney Residences",
+        "rating": 9.0,
+        "id": 6,
+        "rating_description": "Superb",
+        "distance_from_center": "900m",
+        "description_Title": "Stay in Sydney Residences ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/17206159/pexels-photo-17206159/free-photo-of-spacious-banquet-hall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free airport taxi",
+          "Air conditioning",
+          "Free Wi-Fi"
+        ]
+      },
+      "apartment_details": {
+        "type": "2-Bedroom Apartment",
+        "features": {
+          "layout": "2 bedrooms",
+          "bathroom_count": 1,
+          "area": "50m²",
+          "bed_type": "2 queen beds"
+        }
+      },
+      "pricing": {
+        "total_cost": "$250",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Great for families!"
+      }
+    },
+    {
+      "property": {
+        "name": "Gothenburg",
+        "rating": 8.6,
+        "id": 7,
+        "rating_description": "Fabulous",
+        "distance_from_center": "1km",
+        "description_Title": "Stay in Gothenburg ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/17057036/pexels-photo-17057036/free-photo-of-tree-in-decorated-restaurant-hall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Pet-friendly",
+          "Free Wi-Fi",
+          "Breakfast included"
+        ]
+      },
+      "apartment_details": {
+        "type": "Studio Apartment",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "22m²",
+          "bed_type": "1 double bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$130",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Limited-time promotion!"
+      }
+    },
+    {
+      "property": {
+        "name": "Central Park New York",
+        "rating": 9.2,
+        "id": 8,
+        "rating_description": "Superb",
+        "distance_from_center": "300m",
+        "description_Title": "Stay in entral Park New York",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/19689227/pexels-photo-19689227/free-photo-of-furniture-in-salon-in-luxury-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Rooftop access",
+          "24-hour security"
+        ]
+      },
+      "apartment_details": {
+        "type": "2-Bedroom Apartment with City View",
+        "features": {
+          "layout": "2 bedrooms",
+          "bathroom_count": 1,
+          "area": "45m²",
+          "bed_type": "2 queen beds"
+        }
+      },
+      "pricing": {
+        "total_cost": "$270",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now for best rates!"
+      }
+    },
+    {
+      "property": {
+        "name": "Tokyo  Loft",
+        "rating": 9.4,
+        "id": 9,
+        "rating_description": "Exceptional",
+        "distance_from_center": "1.2km",
+        "description_Title": "Stay in Tokyo  Loft",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/27562218/pexels-photo-27562218/free-photo-of-residential-project-in-sulaymaniyah-city.png",
+        "amenities": [
+          "Free Wi-Fi",
+          "Concierge services",
+          "Air conditioning"
+        ]
+      },
+      "apartment_details": {
+        "type": "Loft Apartment with Balcony",
+        "features": {
+          "layout": "Entire loft",
+          "bathroom_count": 1,
+          "area": "32m²",
+          "bed_type": "1 king bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$240",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now and save!"
+      }
+    },
+    {
+      "property": {
+        "name": "London  Residence",
+        "rating": 8.5,
+        "id": "10",
+        "rating_description": "Very Good",
+        "distance_from_center": "1.5km",
+        "description_Title": "Stay in London  Residence",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Gym access",
+          "Parking available"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Apartment",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "40m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$220",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Special offer for limited time!"
+      }
+    },
+    {
+      "property": {
+        "name": "Sydney  Harbour ",
+        "rating": 8.8,
+        "id": "11",
+        "rating_description": "Excellent",
+        "distance_from_center": "1.2km",
+        "description_Title": "Stay in Sydney  Harbour ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/10284009/pexels-photo-10284009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Fitness center",
+          "Free cancellation"
+        ]
+      },
+      "apartment_details": {
+        "type": "Studio Apartment",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "28m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$190",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Lock in this price!"
+      }
+    },
+    {
+      "property": {
+        "name": "Gothenburg City ",
+        "rating": 9.0,
+        "id": "12",
+        "rating_description": "Superb",
+        "distance_from_center": "400m",
+        "description_Title": "Stay in Gothenburg City   ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/9556514/pexels-photo-9556514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Gym access",
+          "Pet-friendly"
+        ]
+      },
+      "apartment_details": {
+        "type": "Loft Apartment with Balcony",
+        "features": {
+          "layout": "Entire loft",
+          "bathroom_count": 1,
+          "area": "34m²",
+          "bed_type": "1 king bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$180",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Limited-time offer!"
+      }
+    },
+    {
+      "property": {
+        "name": "New York  ",
+        "rating": 9.1,
+        "id": "13",
+        "rating_description": "Superb",
+        "distance_from_center": "1km",
+        "description_Title": "Stay in New York ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/12876410/pexels-photo-12876410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour security",
+          "Gym access"
+        ]
+      },
+      "apartment_details": {
+        "type": "2-Bedroom Apartment with City View",
+        "features": {
+          "layout": "2 bedrooms",
+          "bathroom_count": 1,
+          "area": "50m²",
+          "bed_type": "2 queen beds"
+        }
+      },
+      "pricing": {
+        "total_cost": "$280",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now to save!"
+      }
+    },
+    {
+      "property": {
+        "name": "Tokyo city ",
+        "rating": 8.7,
+        "id": "14",
+        "rating_description": "Excellent",
+        "distance_from_center": "2km",
+        "description_Title": "Stay in Tokyo city ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/17001757/pexels-photo-17001757/free-photo-of-a-table-decoration-for-a-wedding.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Air conditioning",
+          "Concierge services"
+        ]
+      },
+      "apartment_details": {
+        "type": "Studio Apartment",
+        "features": {
+          "layout": "Entire studio",
+          "bathroom_count": 1,
+          "area": "24m²",
+          "bed_type": "1 double bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$190",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Limited-time discount!"
+      }
+    },
+    {
+      "property": {
+        "name": "London Kensington Residence",
+        "rating": 8.9,
+        "id": "15",
+        "rating_description": "Excellent",
+        "distance_from_center": "1.2km",
+        "description_Title": "Stay in London Kensington Residence  ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/17001772/pexels-photo-17001772/free-photo-of-a-table-decoration-in-a-restaurant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free Wi-Fi",
+          "Gym access",
+          "Pet-friendly"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Apartment",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "36m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$230",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Special price for a limited time!"
+      }
+    },
+    {
+      "property": {
+        "name": "Gothenburg Riverside Loft",
+        "rating": 8.7,
+        "id": "16",
+        "rating_description": "Excellent",
+        "distance_from_center": "600m",
+        "description_Title": "Stay in Gothenburg Riverside Loft",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free breakfast",
+          "Gym access",
+          "Pet-friendly"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Loft",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "40m²",
+          "bed_type": "1 king bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$150",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Book now to secure this rate!"
+      }
+    },
+    {
+      "property": {
+        "name": "Tokyo Shibuya Residence",
+        "rating": 9.3,
+        "id": "17",
+        "rating_description": "Superb",
+        "distance_from_center": "500m",
+        "description_Title": "Stay in Tokyo Shibuya Residence ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/19228025/pexels-photo-19228025/free-photo-of-tables-at-elegant-restaurant.jpeg",
+        "amenities": [
+          "Air conditioning",
+          "Smart TV",
+          "Free breakfast"
+        ]
+      },
+      "apartment_details": {
+        "type": "1-Bedroom Apartment with Balcony",
+        "features": {
+          "layout": "1 bedroom",
+          "bathroom_count": 1,
+          "area": "35m²",
+          "bed_type": "1 queen bed"
+        }
+      },
+      "pricing": {
+        "total_cost": "$200",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Early bird discount!"
+      }
+    },
+    {
+      "property": {
+        "name": "Sydney Opera Residences",
+        "rating": 9.0,
+        "id": "18",
+        "rating_description": "Superb",
+        "distance_from_center": "900m",
+        "description_Title": "Stay in Sydney Opera Residences ",
+        "description": "Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come with hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul II International Kraków-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.",
+        "image": "https://images.pexels.com/photos/17206159/pexels-photo-17206159/free-photo-of-spacious-banquet-hall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "amenities": [
+          "Free airport taxi",
+          "Air conditioning",
+          "Free Wi-Fi"
+        ]
+      },
+      "apartment_details": {
+        "type": "2-Bedroom Apartment",
+        "features": {
+          "layout": "2 bedrooms",
+          "bathroom_count": 1,
+          "area": "50m²",
+          "bed_type": "2 queen beds"
+        }
+      },
+      "pricing": {
+        "total_cost": "$250",
+        "includes": "Taxes and fees"
+      },
+      "booking_options": {
+        "availability": "See availability",
+        "cancellation_policy": "Free cancellation",
+        "additional_note": "Great for families!"
+      }
+    }
+  ]
+}

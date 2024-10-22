@@ -1,0 +1,76 @@
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed red;
+    margin: 0 auto; /* Center the container */
+}
+
+.featureItem {
+    position: relative;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex: 1 1 calc(33.333% - 40px); /* Flex layout for 3 items per row */
+    margin-bottom: 20px;
+}
+
+.featureImg {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover; /* Crop image to fit */
+    padding: 20px;
+}
+
+.featureTitles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+.featureTitles h2 {
+    font-size: 22px;
+    color: #333;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Highlight City Name */
+.featureTitles h2 .cityName {
+    font-weight: bold;
+    color: red; /* Highlight color for city name */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .featureItem {
+        flex: 1 1 calc(50% - 20px); /* 2 items per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .featureItem {
+        flex: 1 1 100%; /* 1 item per row on mobile */
+    }
+
+    .featureTitles {
+        bottom: 10px;
+        left: 10px;
+        padding: 5px 10px;
+    }
+}
