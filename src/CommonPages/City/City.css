@@ -123,6 +123,7 @@
     gap: 10px;
     font-size: 16px;
     position: absolute;
+    top: -80px;
 }
 
 .siRating1 > span {
@@ -147,6 +148,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    top: 80px;
 }
 
 .siprice1 {
