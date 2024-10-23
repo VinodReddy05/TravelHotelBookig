@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -7,10 +6,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 import Circles from 'react-loading-icons/dist/esm/components/circles';
 
-
 const Login = () => {
-
-  const [d, setD] = useState([])
+  const [d, setD] = useState([]);
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -34,7 +31,6 @@ const Login = () => {
   };
 
   const handleLogin = async () => {
-    
     const newErrors = validateForm();
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) {
@@ -47,6 +43,25 @@ const Login = () => {
     const startTime = Date.now();
 
     try {
+      // Check for predefined email and password
+      if (email === 'vinod@gmail.com' && password === '123456') {
+        toast.success('Login successful!');
+        const token = 'predefined-user-token'; // You can assign a custom token
+        localStorage.setItem('token', token);
+        localStorage.setItem('userEmail', email);
+
+        const elapsedTime = Date.now() - startTime;
+        const remainingTime = MINIMUM_LOADING_TIME - elapsedTime;
+
+        setTimeout(() => {
+          setLoading(false);
+          navigate('/');
+        }, remainingTime > 0 ? remainingTime : 0);
+
+        return; // Exit after predefined login succeeds
+      }
+
+      // Normal login flow with backend
       const { data } = await axios.get(base_url);
       const user = data.find(user => user.email === email && user.password === password);
 
@@ -68,7 +83,7 @@ const Login = () => {
 
         setTimeout(() => {
           setLoading(false);
-          navigate("/");
+          navigate('/');
         }, remainingTime > 0 ? remainingTime : 0);
       } else {
         toast.error('Invalid credentials');
