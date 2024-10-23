@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logout from './logout';
-import UserProfile from './UserProfile'; // Import the UserProfile component
-
+import UserProfile from './UserProfile'; 
 const Header = () => {
   const token = localStorage.getItem('token');
 
+  
   return (
     <header>
       <nav>
@@ -25,7 +25,7 @@ const Header = () => {
           ) : (
             <>
               <li>
-                <UserProfile /> {/* Show user profile */}
+                <UserProfile /> 
               </li>
               <li>
                 <Logout />

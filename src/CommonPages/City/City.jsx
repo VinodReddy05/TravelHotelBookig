@@ -1,80 +1,81 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import cityData from "../../../db.json"
+import data from "../../../db.json";
+import { Link } from 'react-router-dom';
+import List from '../../Pages/Lists/List';
+import "./City.css"
+import NavBar from '../NavBar/NavBar';
 
 const City = () => {
-    const { city } = useParams();
+  const { city } = useParams();  
+  const [apartments, setApartments] = useState([]);
 
-    const cityInfo = cityData.cities[city];
+  useEffect(() => {
+    console.log("Loaded properties:", data.properties);
+    setApartments(data.properties);
+  }, []);
+
+  const filteredApartments = apartments.filter(property => 
+    property.property && property.property.name && 
+    city && 
+    property.property.name.toLowerCase().includes(city.toLowerCase())
+  );
+
+  if (apartments.length === 0) {
+    return <span>Loading apartments...</span>;
+  }
+
   return (
-    <div>
-       <h1>Welcome to {city}</h1>
-       <p>{cityInfo.description}</p> 
-       <p>{cityInfo.amenities}</p>
+
+    <>
+    <div className='citySearch'>
+    <NavBar/>
 
     </div>
-  )
-}
 
-export default City
+    <div className='city-data'>
 
+<h1>Available Apartments in {city}</h1>
+{filteredApartments.length > 0 ? (
+  <div className='city-card'>
+    {filteredApartments.map((property, index) => (
+      <div key={index}>
+        <div className="searchItem1">
+          <img src={property.property.image} alt={property.property.name} className='siImg1' />
+          <div className="siDesc1">
+            <h2 className='siTitle1'>{property.property.name}</h2>
+            <span className='siDistance1'> {property.property.distance_from_center}</span>
+            <span className='siAminity1'> {property.property.amenities.join(', ')}</span>
+            <span className='siSubtitle1'> {property.apartment_details.type}</span>
+            <span className='siFeatures1'> {property.apartment_details.features.area}</span>
+            <span className='siCancleOp1'>{property.booking_options.cancellation_policy}**</span>
+            <span className='siSpecialPrice1'>{property.booking_options.additional_note}</span>
+          </div>
 
+          <div className="siDetails1">
+            <div className="siRating1">
+              <span>{property.property.rating_description}</span>
+              <button>{property.property.rating}</button>
+            </div>
+            <div className="siDetailText1">
+              <span className='siprice1'> {property.pricing.total_cost} </span>
+              <span className='siTaxiOp1'> ({property.pricing.includes})</span>
 
+              <button className='siCheckButton1'>
+                <Link to={`/hotels/${property.property.id}`} key={property.property.id}>See Availability</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+) : (
+  <span>No apartments found for {city}</span>
+)}
+</div>
+    </>
+  );
+};
 
-
-// import React from 'react';
-// import { useParams } from 'react-router-dom';
-// import cityData from "../../../db.json"; // Adjust the path if necessary
-
-// const City = () => {
-//     const { city } = useParams();
-    
-//     // Get the city info
-//     const cityInfo = cityData.cities[city]; // This will get the city data
-
-//     // Handle if the city doesn't exist
-//     if (!cityInfo) {
-//         return (
-//             <div>
-//                 <h1>City not found</h1>
-//             </div>
-//         );
-//     }
-
-//     return (
-//         <div>
-//             <h1>Welcome to {city}</h1>
-//             <p>{cityInfo.description}</p>
-//             <h2>Amenities:</h2>
-//             <ul>
-//                 {cityInfo.amenities.map((amenity, index) => (
-//                     <li key={index}>{amenity}</li>
-//                 ))}
-//             </ul>
-
-//             <h2>Properties:</h2>
-//             {cityInfo.properties && cityInfo.properties.length > 0 ? (
-//                 cityInfo.properties.map((property) => (
-//                     <div key={property.id}>
-//                         <h3>{property.description_Title}</h3>
-//                         <img src={property.image} alt={property.name} />
-//                         <p>{property.description}</p>
-//                         <p>Rating: {property.rating} - {property.rating_description}</p>
-//                         <p>Distance from Center: {property.distance_from_center}</p>
-//                         <h4>Amenities:</h4>
-//                         <ul>
-//                             {property.amenities.map((amenity, index) => (
-//                                 <li key={index}>{amenity}</li>
-//                             ))}
-//                         </ul>
-//                     </div>
-//                 ))
-//             ) : (
-//                 <p>No properties found for this city.</p>
-//             )}
-//         </div>
-//     );
-// };
-
-// export default City;
-
+export default City;

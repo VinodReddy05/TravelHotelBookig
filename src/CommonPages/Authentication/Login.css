@@ -113,11 +113,6 @@
     text-decoration: underline;
   }
 
-
-
-
-  /* userprofile css */
-
   .user-profile {
     position: relative;
     display: inline-block;
@@ -171,17 +166,16 @@
   }
   
   .logout-button:hover {
-    background-color: #f0f0f0; /* Change color on hover */
+    background-color: #f0f0f0; 
   }
   
 
 
 
-  /* loading spinner */
 
   .loading-spinner {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust based on your layout */
+    margin-top: 20px; 
   }

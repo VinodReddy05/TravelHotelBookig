@@ -81,7 +81,7 @@
     display: block;
     width: 100%;
     padding: 12px;
-    background-color: #28a745; /* Green background */
+    background-color: #28a745; 
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -96,26 +96,24 @@
   }
   
 
-  /* Align the input and text side by side */
 .booking-cancle .checkbox-container {
     display: flex;
-    align-items: center; /* Vertically center the input and text */
-    margin-top: 10px; /* Space above the section */
+    align-items: center; 
+    margin-top: 10px; 
   }
   
   .booking-cancle .checkbox-container p {
-    margin: 0; /* Remove extra margin from the paragraph */
-    margin-left: 10px; /* Add some space between the checkbox and the text */
+    margin: 0; 
+    margin-left: 10px;  
   }
   
-  /* Align the FontAwesome icon and span side by side */
   .booking-cancle .icon-container {
     display: flex;
-    align-items: center; /* Vertically align the icon and text */
-    margin-top: 10px; /* Space above the section */
+    align-items: center;
+    margin-top: 10px;  
   }
   
   .booking-cancle .icon-container span {
-    margin-left: 10px; /* Add space between the icon and the text */
+    margin-left: 10px; 
   }
   

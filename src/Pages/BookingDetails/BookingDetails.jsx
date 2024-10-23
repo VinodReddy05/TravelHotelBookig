@@ -14,14 +14,9 @@ const BookingDetails = () => {
     const { id } = useParams();
     const bookingId = id;
     useEffect(() => {
-        // console.log("ID from useParams:", id);  // Check if the ID is being received
       
         if (data && data.properties) {
-            const hotelId = String(id);  // Ensure the ID is treated as a string
-            // console.log("Hotel IDs in data:", data.properties.map(hotel => String(hotel.property.id))); // Debugging log
-            // console.log("ID from URL:", hotelId);  // Debugging log
-      
-            // Find the hotel by matching the id
+            const hotelId = String(id);  
             const selectedHotel = data.properties.find(hotel => hotel.property && String(hotel.property.id) === hotelId);
       
             if (selectedHotel) {

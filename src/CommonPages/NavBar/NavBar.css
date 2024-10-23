@@ -4,8 +4,7 @@
 }
 
 nav {
-  background-color: #295F98;
-  /* border: 1px solid red; */
+  background: linear-gradient(to right, #4b6cb7, #182848);
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -90,11 +89,6 @@ nav .navlink {
 }
 
 
-/* ///// */
-
-
-
-
 @media (max-width: 700px) {
   nav .hamburger {
     display: block;
@@ -115,7 +109,7 @@ nav .navlink {
     gap: 30px;
     background-color: rgba(150, 150, 150, 0.7);
     transition: left 0.6s ease;
-    /* z-index: 99999; */
+    border-radius: 0 0 40px 0;
   }
 
   .navlink.active {
@@ -129,6 +123,5 @@ nav .navlink {
   
   .navItems a:hover { 
     text-decoration: underline; 
-    /* color: red; */
   }
 }

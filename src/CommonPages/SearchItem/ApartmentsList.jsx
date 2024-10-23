@@ -11,7 +11,6 @@ const ApartmentsList = ({ destination }) => {
         setApartments(data.properties);
     }, []);
 
-    // Optional: Filter apartments based on the selected destination
     const filteredApartments = apartments.filter(property => 
         property.property.name.toLowerCase().includes(destination.toLowerCase())
     );

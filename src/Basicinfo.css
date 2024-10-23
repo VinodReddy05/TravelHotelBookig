@@ -25,3 +25,28 @@ function CreditCardForm() {
     </form>
   );
 } */
+
+
+/* // useEffect(() => {
+
+  //   axios.get('../../../auth.json')
+  //   .then(res => setD(res))
+
+  // }, [])
+
+  //   let emailId = "vinod@gmail.com"
+  // let passkey="123456"
+
+  // useEffect(() => {
+
+  //   axios.get('../../../auth.json').then(res => setD(res.data.users))
+
+  // }, []) */
+
+  /* // d.map(item => {
+    //   if (item.email == emailId && item.password==passkey) {
+    //     console.log(item)
+    //   } else {
+    //     console.log("credentials mismatch")
+    //   }
+    // }) */

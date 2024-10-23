@@ -32,6 +32,7 @@
     flex-direction: column;
     gap: 5px;
     margin-bottom: 10px;
+  
 }
 
 .lsItem > label {
@@ -52,8 +53,9 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    padding: 10px; /* Adjusted padding for better alignment */
+    padding: 10px; 
     border-radius: 8px;
+   
 }
 
 .lsOptions {
@@ -95,62 +97,63 @@
     padding: 0;
     list-style-type: none;
     position: absolute;
-    width: calc(100% - 20px); /* Adjust for padding */
+    width: calc(100% - 20px); 
     z-index: 10;
+    position: relative;
+    top: 20px;
 }
 
 .suggestions li {
     padding: 10px;
     cursor: pointer;
+   
 }
 
 .suggestions li:hover {
     background-color: #f0f0f0;
 }
 
-/* Media query for mobile screens */
 @media (max-width: 768px) {
     .listwrapper {
-        flex-direction: column; /* Stack components vertically */
-        gap: 15px; /* Space between components */
+        flex-direction: column;  
+        gap: 15px;  
     }
 
     .listSearch {
-        margin-bottom: 15px; /* Space below the search component */
-        position: static; /* Remove sticky position */
-        width: 100%; /* Ensure full width on mobile */
+        margin-bottom: 15px; 
+        position: static; 
+        width: 100%; 
     }
 
     .listResult {
-        width: 100%; /* Ensure full width on mobile */
+        width: 100%; 
     }
 
     .lsItem > input,
     .lsItem > span {
-        width: 100%; /* Full width for inputs and spans */
+        width: 100%;  
     }
 
     .listSearch > button {
-        padding: 10px; /* Maintain consistent padding */
-        border-radius: 20px; /* Keep button rounded */
+        padding: 10px;  
+        border-radius: 20px;  
     }
 }
 
-/* Additional styling for very small screens (like phones) */
 @media (max-width: 480px) {
     .lsTitle {
-        font-size: 18px; /* Slightly smaller title */
+        font-size: 18px;  
     }
 
     .lsItem > label {
-        font-size: 12px; /* Smaller labels for mobile */
+        font-size: 12px;  
     }
 
     .lsOptionItem {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px;  
     }
 
     .lsOptionInput {
-        width: 40px; /* Smaller width for inputs */
+        width: 40px;  
     }
 }

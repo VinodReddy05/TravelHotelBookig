@@ -17,7 +17,6 @@ const Payment = () => {
 
   
 
-  // const users = useSelector(state => state.user.users)
   const dispatch = useDispatch()
   const isActive = useSelector(state => state.user.isActive)
 
@@ -78,7 +77,6 @@ const Payment = () => {
       <p>Make sure the information you have already written in your profile is correct.</p>
     </div>
 
-    {/* Form with FontAwesome icons inside inputs */}
     <form onSubmit={handleSubmit}>
       <div className='inputWithIcon'>
         <FontAwesomeIcon icon={faUser} className='inputIcon' />
@@ -97,7 +95,6 @@ const Payment = () => {
         icon={isCardVisible ? faEyeSlash : faEye}  
         className='inputIconRight'                
         onClick={toggleVisibility}                
-        // style={{ cursor: 'pointer' }}             
       />
       </div>
       <div className='inputWithIcon'>

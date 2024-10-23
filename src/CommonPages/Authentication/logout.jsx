@@ -6,11 +6,10 @@ const Logout = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    // Clear the token and email from local storage
     localStorage.removeItem('token');
     localStorage.removeItem('userEmail');
     toast.success('Successfully logged out!');
-    navigate('/login'); // Redirect to the login page
+    navigate('/login'); 
   };
   
 

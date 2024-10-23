@@ -10,18 +10,7 @@ import Footer from '../../CommonPages/Footer/Footer';
 import axios from 'axios';
 
 const Home = () => {
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await axios.post("http://localhost:3000/keys", { key: "values" });
-  //       console.log(response.data);
-  //     } catch (error) {
-  //       console.error("Error fetching data:", error);
-  //     }
-  //   };
 
-  //   fetchData();
-  // }, []); // Empty dependency array to run only once
 
   return (
     <div>

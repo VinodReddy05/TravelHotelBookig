@@ -57,7 +57,7 @@ const handleMove =(direction) =>{
 
 const handleChange = () => {
   if (hotel) {
-    navigate(`/booking/${hotel.property.id}`); // Use the actual hotel ID here
+    navigate(`/booking/${hotel.property.id}`); 
   }
 }
 

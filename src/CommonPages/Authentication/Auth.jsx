@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const Auth = () => {
   const [users, setUsers] = useState([]);
 
-  // Fetch users from your API
   useEffect(() => {
     const fetchUsers = async () => {
       try {

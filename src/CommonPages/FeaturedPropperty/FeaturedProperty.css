@@ -6,7 +6,7 @@
     gap: 20px;
     padding-bottom: 10px;
     border-bottom: 2px dashed red;
-    flex-wrap: wrap; /* Allows the items to wrap in smaller screens */
+    flex-wrap: wrap;  
 }
 
 .fpItem {
@@ -14,9 +14,9 @@
     gap: 5px;
     display: flex;
     flex-direction: column;
-    max-width: calc(33.33% - 20px); /* 3 cards per row by default */
-    min-width: 300px; /* Ensures a minimum width for the cards */
-    margin-bottom: 20px; /* Adds space between rows */
+    max-width: calc(33.33% - 20px);  
+    min-width: 300px;  
+    margin-bottom: 20px;  
 }
 
 .fpImg {
@@ -50,11 +50,10 @@
     font-size: 16px;
 }
 
-/* Media query for smaller screens (tablets and phones) */
 @media (max-width: 768px) {
     .fpItem {
-        max-width: 100%; /* Makes each card take full width on small screens */
-        flex-direction: column; /* Stack image and data vertically */
+        max-width: 100%; 
+        flex-direction: column; 
     }
 
     .fp {
@@ -63,18 +62,17 @@
     }
 
     .fpImg {
-        height: 200px; /* Reduce image height on smaller screens */
-    }
+        height: 200px; 
+}
 }
 
-/* Media query for very small screens */
 @media (max-width: 480px) {
     .fpImg {
         height: 150px;
     }
 
     .fpRating > button {
-        padding: 5px 10px; /* Adjust button size for small screens */
+        padding: 5px 10px; 
     }
 
     .fpRating > span {

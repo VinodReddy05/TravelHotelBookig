@@ -9,6 +9,7 @@ import Sydney from '../../../assets/sydney 1.svg'
 import gothenburg from '../../../assets/Gothenburg.svg'
 import Tokyo from '../../../assets/tokyo-japan 1.svg'
 import './Featured.css';
+import data from "../../../db.json"
 
 import { useNavigate } from 'react-router-dom';
 

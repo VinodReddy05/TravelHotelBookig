@@ -24,6 +24,7 @@ const List = () => {
 
   const handleDestinationChange = (e) => {
       const value = e.target.value;
+      setOptions(locationsList)
       setDestination(value);
 
   };
