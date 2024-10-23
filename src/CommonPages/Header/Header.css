@@ -294,4 +294,9 @@
         display: grid;
     
     }
+    .destinationDropdown {
+        width: 90%;
+        top: 60px;
+        left: 10px;
+    }
 }
