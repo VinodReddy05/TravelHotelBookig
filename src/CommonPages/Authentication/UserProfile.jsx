@@ -25,7 +25,7 @@ const UserProfile = () => {
   return (
     <div className="user-profile">
       <div className="profile-container" onClick={toggleDropdown}>
-        <FontAwesomeIcon className='user-icon' icon={faUser } fa-2x/>
+        <FontAwesomeIcon className='user-icon' icon={faUser }/>
         <span className="user-email">{userEmail}</span>
       </div>
       {isDropdownOpen && (
