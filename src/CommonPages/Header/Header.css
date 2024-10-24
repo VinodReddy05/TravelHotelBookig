@@ -9,13 +9,11 @@
 .header {
     background: linear-gradient(to right, #4b6cb7, #182848);
     color: white;
-    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    min-height: 50vh;
     text-align: center;
 }
 .headerList {

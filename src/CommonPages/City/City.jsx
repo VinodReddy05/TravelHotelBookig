@@ -39,7 +39,7 @@ const City = () => {
 {filteredApartments.length > 0 ? (
   <div className='city-card'>
     {filteredApartments.map((property, index) => (
-      <div key={index}>
+      <div key={index} className='search-card'>
         <div className="searchItem1">
           <img src={property.property.image} alt={property.property.name} className='siImg1' />
           <div className="siDesc1">

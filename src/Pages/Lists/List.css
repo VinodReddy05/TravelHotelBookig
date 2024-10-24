@@ -10,10 +10,17 @@
     display: flex;
     gap: 20px;
 }
+.lsOptionText{
+    font-size: 20px;
+    color: black;
+}
 
 .listSearch {
     flex: 1;
-    background-color: #098dea;
+    /* background-color: #098dea; */
+    background: linear-gradient(to right, #38c8f0, #09203F);
+    
+
     padding: 10px;
     border-radius: 10px;
     position: sticky;
@@ -22,9 +29,11 @@
 }
 
 .lsTitle {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .lsItem {
@@ -36,7 +45,7 @@
 }
 
 .lsItem > label {
-    font-size: 14px;
+    font-size: 19px;
 }
 
 .lsItem > input {
@@ -141,19 +150,44 @@
 }
 
 @media (max-width: 480px) {
+    .listwrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .listSearch{
+        flex: none;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .lsTitle {
         font-size: 18px;  
     }
 
     .lsItem > label {
-        font-size: 12px;  
+        font-size: 19px;  
     }
 
     .lsOptionItem {
+
         font-size: 14px;  
+    }
+    .lsOptionItem input{
+        width: 90px;
     }
 
     .lsOptionInput {
         width: 40px;  
+    }
+
+    .lsTitle {
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
     }
 }

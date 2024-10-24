@@ -16,27 +16,27 @@ const ApartmentsList = ({ destination }) => {
     );
 
     return (
-        <div>
+        <div className='appartments'>
             <h1>Available Apartments</h1>
             {filteredApartments.length > 0 ? (
                 <div>
                     {filteredApartments.map((property, index) => (
-                        <div key={index}>
+                        <div key={index} className='cards'>
                             <div className="searchItem">
                                 <img src={property.property.image} alt={property.property.name} className='siImg' />
                                 <div className="siDesc">
                                     <h2 className='siTitle'>{property.property.name}</h2>
-                                    <span className='siDistance'> {property.property.distance_from_center}</span>
+                                    <span className='siDistance'> <b>From the city center:</b> {property.property.distance_from_center}</span>
                                     <span className='siAminity'> {property.property.amenities.join(', ')}</span>
                                     <span className='siSubtitle'> {property.apartment_details.type}</span>
-                                    <span className='siFeatures'> {property.apartment_details.features.area}</span>
+                                    <span className='siFeatures'><b>Romm length</b> {property.apartment_details.features.area} <b>sqt</b></span>
                                     <span className='siCancleOp'>{property.booking_options.cancellation_policy}**</span>
                                     <span className='siSpecialPrice'>{property.booking_options.additional_note}</span>
                                 </div>
 
                                 <div className="siDetails">
                                     <div className="siRating">
-                                        <span>{property.property.rating_description}</span>
+                                        <span> <b>Rating:</b> {property.property.rating_description}</span>
                                         <button>{property.property.rating}</button>
                                     </div>
                                     <div className="siDetailText">
