@@ -97,7 +97,18 @@ const Login = () => {
   };
 
   return (
-    <div className="authentication">
+    <>
+     <div className="authentication">
+   <div className="credentials">
+    <h1>Sample login</h1>
+  <h2>Email ID: vinod@gmail.com</h2>
+
+  <h2>passkey: 123456</h2>
+   </div>
+   
+
+
+
       <div className="register">
         <h3>Login</h3>
 
@@ -142,6 +153,7 @@ const Login = () => {
 
       <ToastContainer />
     </div>
+    </>
   );
 };
 
