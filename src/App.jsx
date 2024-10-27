@@ -1,42 +1,41 @@
-
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home/Home';
-import List from './Pages/Lists/List';
-import HotelPage from './Pages/HotelPage/HotelPage';
-import Signup from './CommonPages/Authentication/Register';
-import Login from './CommonPages/Authentication/Login';
-import Payment from './Pages/PaymentPage/Payment';
-import BookingDetails from './Pages/BookingDetails/BookingDetails';
-import City from './CommonPages/City/City';
 import { Navigate } from 'react-router-dom';
+
+// Lazy load your components
+const Home = lazy(() => import('./Pages/Home/Home'));
+const List = lazy(() => import('./Pages/Lists/List'));
+const HotelPage = lazy(() => import('./Pages/HotelPage/HotelPage'));
+const Signup = lazy(() => import('./CommonPages/Authentication/Register'));
+const Login = lazy(() => import('./CommonPages/Authentication/Login'));
+const Payment = lazy(() => import('./Pages/PaymentPage/Payment'));
+const BookingDetails = lazy(() => import('./Pages/BookingDetails/BookingDetails'));
+const City = lazy(() => import('./CommonPages/City/City'));
 
 const App = () => {
   const PrivateRoute = ({ element: Component }) => {
     const token = localStorage.getItem('token');
     return token ? <Component /> : <Navigate to="/login" />;
   };
+
   return (
     <div>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<PrivateRoute element={Home} />}/>
-          <Route path="/hotels" element={<List />} />
-          {/* // <Route path="/hotels/:id" element={<PrivateRoute element={HotelPage} />} /> */}
-          <Route path="/hotels/:id" element={<HotelPage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          {/* <Route path="/city/:cityName" element={<City />} /> */}
-          <Route path="/city/:city" element={<City />} />
-          {/* <Route path="/booking/:id" element={<PrivateRoute element={BookingDetails} />} /> */}
-          <Route path="/booking/:id" element={< BookingDetails/>} />
-          {/* <Route path="/booking/:id/payment" element={<PrivateRoute element={Payment} />} /> */}
-          <Route path="/booking/:id/payment" element={<Payment/>} />
-        </Routes>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<PrivateRoute element={Home} />} />
+            <Route path="/hotels" element={<List />} />
+            <Route path="/hotels/:id" element={<HotelPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/city/:city" element={<City />} />
+            <Route path="/booking/:id" element={<BookingDetails />} />
+            <Route path="/booking/:id/payment" element={<Payment />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </div>
   );
 };
 
 export default App;
-

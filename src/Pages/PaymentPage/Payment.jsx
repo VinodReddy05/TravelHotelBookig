@@ -52,7 +52,11 @@ const Payment = () => {
         })
     
         toast.success("data successfully submited")
-        navigate('/')
+        setTimeout(() => {
+          navigate('/')
+        },3000);
+        
+       
        }else{
         toast.error("Enter valid Information")
     }
@@ -90,7 +94,7 @@ const Payment = () => {
 
       <div className='inputWithIcon'>
         <FontAwesomeIcon icon={faLock} className='inputIcon' />
-        <input  type={isCardVisible ? 'text' : 'password'} placeholder='Card Number' name="cardnumber" value={user.cardnumber} onChange={handleChange} />
+        <input  type={isCardVisible ? 'text' : 'password'} placeholder='Card Number' name="cardnumber" value={user.cardnumber}  maxLength="12" onChange={handleChange} />
         <FontAwesomeIcon
         icon={isCardVisible ? faEyeSlash : faEye}  
         className='inputIconRight'                
