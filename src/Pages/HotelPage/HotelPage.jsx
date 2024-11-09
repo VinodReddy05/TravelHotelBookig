@@ -8,7 +8,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons/faLocationDot';
 import { faCircleArrowLeft, faCircleArrowRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
-import './HotelPage.css';
+import '../../Pages/HotelPage/HotelPage.css';
+
 
 
 const HotelPage = () => {
