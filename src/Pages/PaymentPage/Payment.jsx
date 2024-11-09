@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faEnvelope, faEye, faEyeSlash, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 import 'react-toastify/dist/ReactToastify.css';
-import './payment.css';
 import { toast, ToastContainer } from 'react-toastify';
 import { useSelector, useDispatch } from 'react-redux';
 import { setMainUser, setUsers, setActive } from '../../Redux/Slices/UserSlice'
 import NavBar from '../../CommonPages/NavBar/NavBar';
 import Header from '../../CommonPages/Header/Header';
 import { useNavigate } from 'react-router-dom';
+import './Payment.css'
 
 const Payment = () => {
 
