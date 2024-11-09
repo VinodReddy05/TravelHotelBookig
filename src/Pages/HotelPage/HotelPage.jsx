@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import "./HotelPage.css";
 import NavBar from "../../CommonPages/NavBar/NavBar";
 import Header from "../../CommonPages/Header/Header";
 import MailList from "../../CommonPages/MailList/MailList"
@@ -9,6 +8,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons/faLocationDot';
 import { faCircleArrowLeft, faCircleArrowRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import "./HotelPage.css";
 
 const HotelPage = () => {
   const [slideNumber,setSlideNumber] = useState(0); 
