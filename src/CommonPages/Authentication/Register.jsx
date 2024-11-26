@@ -46,7 +46,7 @@ const Register = () => {
 
     setLoading(true);
     try {
-      const { data } = await axios.post(base_url);
+      const { data } = await axios.get(base_url);
       const userExists = data.some((user) => user.email === email);
 
       if (userExists) {
