@@ -17,7 +17,7 @@ const Login = () => {
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  const base_url = import.meta.env.VITE_BASE_URL || 'http://localhost:3000/users';
+  const base_url ='https://dummyserver-3kx2.onrender.com/users';
 
   const validateForm = () => {
     const newErrors = {};
@@ -44,7 +44,7 @@ const Login = () => {
 
     try {
       // Check for predefined email and password
-      if (email === 'vinod@gmail.com' && password === '123456') {
+      if (email === email && password === password) {
         toast.success('Login successful!');
         const token = 'predefined-user-token'; // You can assign a custom token
         localStorage.setItem('token', token);
@@ -99,16 +99,6 @@ const Login = () => {
   return (
     <>
      <div className="authentication">
-   <div className="credentials">
-    <h1>Sample login</h1>
-  <h2>Email ID: vinod@gmail.com</h2>
-
-  <h2>passkey: 123456</h2>
-   </div>
-   
-
-
-
       <div className="register">
         <h3>Login</h3>
 

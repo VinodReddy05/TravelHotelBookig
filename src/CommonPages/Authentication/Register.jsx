@@ -14,7 +14,7 @@ const Register = () => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
 
-  const base_url = import.meta.env.VITE_BASE_URL || 'http://localhost:3000/users';
+  const base_url = 'https://dummyserver-3kx2.onrender.com/users';
   const navigate = useNavigate();
  
 
@@ -46,7 +46,7 @@ const Register = () => {
 
     setLoading(true);
     try {
-      const { data } = await axios.get(base_url);
+      const { data } = await axios.post(base_url);
       const userExists = data.some((user) => user.email === email);
 
       if (userExists) {
