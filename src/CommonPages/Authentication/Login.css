@@ -38,6 +38,25 @@
   .credentials h1{
     color: #ff5252;
   }
+
+/* ========================loading gif===================== */
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.loading-gif {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
   
   .register {
     background: rgba(255, 255, 255, 0.15); 
