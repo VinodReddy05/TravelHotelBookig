@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <NavBar />
       <Header />
-      <MyAdComponent/>
+      {/* <MyAdComponent/> */}
       <div className="homeContainer">
         <Featured />
         <h1 className='homeTitle'>Browse by the property type</h1>
