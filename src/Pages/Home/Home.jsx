@@ -8,6 +8,7 @@ import FeaturedProperty from '../../CommonPages/FeaturedPropperty/FeaturedProper
 import MailList from '../../CommonPages/MailList/MailList';
 import Footer from '../../CommonPages/Footer/Footer';
 import axios from 'axios';
+import MyAdComponent from '../../CommonPages/Ads/MyAdComponent';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
     <div>
       <NavBar />
       <Header />
+      <MyAdComponent/>
       <div className="homeContainer">
         <Featured />
         <h1 className='homeTitle'>Browse by the property type</h1>
