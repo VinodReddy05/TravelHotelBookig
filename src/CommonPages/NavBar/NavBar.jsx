@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import "./NavBar.css";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import UserProfile from '../Authentication/UserProfile';
+// import image from "../assets/airplane.png"
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -20,6 +21,7 @@ const NavBar = () => {
     };
   }, []);
 
+
   const handleClickmenu = () => {
     setClick(!click);
   };
@@ -34,6 +36,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="navContainer">
+        {/* <span>{image}</span> */}
         <span><Link className="logo" to="/">Travel Booking</Link></span>
         <div className={`navlink ${click ? 'active' : ''}`}>
           {!token ? (
